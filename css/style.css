@@ -16,11 +16,9 @@ Template Name: om-theme4all - om-theme4all.github.io
 
 body {
     font-family: Poppins, Arial, sans-serif;
-    font-size: 12px;
     font-weight: 300;
     line-height: 2.2;
     background-color: #fff;
-    color: #797979;
     overflow-x: hidden;
 }
 
