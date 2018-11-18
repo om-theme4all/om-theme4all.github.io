@@ -15,11 +15,14 @@ Template Name: om-theme4all - om-theme4all.github.io
 }
 
 body {
-    font-family: Poppins, Arial, sans-serif;
-    font-weight: 300;
-    line-height: 2.2;
-    background-color: #fff;
-    overflow-x: hidden;
+	font-size:17px;
+	color:#222;
+	line-height:1.7em;
+	font-weight:400;
+	background:#ffffff;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-family: 'Karla', sans-serif;
 }
 
 .load-main {
@@ -42,7 +45,7 @@ img {
 a, a:hover, a:focus  {
     text-decoration: none;
     outline: none;
-    color: inherit;
+    color:#fc6183;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -165,6 +168,14 @@ h1, h2, h3, h4,
 .testimonials .name-job .name {
     font-family: 'Montserrat', sans-serif;
 }
+
+* {
+	margin:0px;
+	padding:0px;
+	border:none;
+	outline:none;
+}
+
 /*End Common Styles*/
 
 /*=================================*/
@@ -172,10 +183,153 @@ h1, h2, h3, h4,
 /*=================================*/
 
 
-
-
+/*** 
 /*** 
 
+====================================================================
+	Card item
+====================================================================
+
+***/
+ .card-outer .card-wrapper {
+	background-color: #fff;
+	overflow: hidden;
+}
+
+.card-outer .card-inner-box {
+    position: relative;
+    min-height: 571px;
+    background-color: #fff;
+}
+
+.card-item {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #fff;
+    z-index: 8;
+}
+
+.card-item .card-inner {
+	height: 100%;
+	padding: 70px;
+	padding-right: 40px;
+	transition: .5s ease;
+}
+
+.card-item .card-inner.mCS_no_scrollbar {
+	padding-right: 70px;
+}
+
+.home {
+	background-position: center;
+    background-repeat: no-repeat;
+}
+
+.card-outer .card-inner-box.active {
+    transition: .5s ease;
+}
+
+.card-item.active {
+	opacity: 1;
+	visibility: visible;
+	z-index: 10;
+	transition: visibility 1s linear, opacity 0.5s linear;
+}
+
+.card-item.hide-item {
+	opacity: 0;
+	visibility: hidden;
+	z-index: 9;
+}
+
+.home .card-inner {
+    padding: 0px;
+    display: block;
+    background: #fff;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+img.about-tween {
+    width: 75%;
+    border-radius: 84%;
+    border: 18px solid #fff0f7;
+}
+
+.home .author {
+	position: relative;
+	padding-top: 95px;
+}
+
+.home .author h3 {
+    font-size: 48px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.hello-us {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #000;
+    line-height: 45px;
+    margin-bottom: 0;
+    position: relative;
+}
+.home .author .designation {
+    font-size: 28px;
+    margin-bottom: 17px;
+    color: #ffc655;
+    background: -webkit-linear-gradient(#ffd857, #ffb252);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.toggler-btn {
+    background-color: #000;
+}
+.home .text {
+	font-size: 17px;
+	margin-bottom: 50px;
+	max-width: 560px;
+	color: #848484;
+}
+
+.home .link-btn {
+	margin-bottom: 35px;
+}
+
+.home .theme-btn {
+	margin-right: 20px;
+}
+span.tolltip {
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+    background: linear-gradient(to right, #9C27B0, #E91E63)!important;
+    padding: 11px 18px;
+    display: inline-block;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 13px;
+    margin-top: 13px;
+    font-weight: 600;
+}
+
+span.tolltip:after {
+    content: '';
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-right: 20px solid #e21f6a;
+    position: absolute;
+    right: 1px;
+    bottom: -20px;
+}
 ====================================================================
 	Footer
 ====================================================================
