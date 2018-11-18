@@ -51,7 +51,7 @@
 <div class="row">
 <div class="col-md-5 col-sm-12">
 <div class="image about-img">
-<img class="img-fluid mx-auto d-block position-relative about-tween rounded-circle" src="images/resource/author.jpg" alt="">
+<img class="img-fluid mx-auto d-block position-relative about-tween rounded-circle" src="https://avatars3.githubusercontent.com/u/25590682?s=460&v=4" alt="">
 </div>
 </div><!-- End col-md-5 col-sm-12 -->
 <div class="col-md-7 col-sm-12">
