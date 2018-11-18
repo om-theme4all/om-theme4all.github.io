@@ -333,6 +333,12 @@ blockquote {
     background: linear-gradient(to right, #9C27B0, #E91E63)!important;
     color: #fff!important;
 }
+blockquote .small, blockquote footer, blockquote small {
+    display: block;
+    font-size: 80%;
+    line-height: 1.42857143;
+    color: #FFF!important;
+}
 .btn-social {
     padding-left: 44px;
     white-space: nowrap;
