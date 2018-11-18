@@ -4,7 +4,7 @@ Author       : Houssam Hammouda
 Template Name: om-theme4all - om-theme4all.github.io
 * ----------------------------------------------------
 */
-
+@import url('https://fonts.googleapis.com/css?family=Karla:400,700');
 /*=================================*/
 /*  01.Common Styles 
 /*=================================*/
@@ -47,29 +47,15 @@ a, a:hover, a:focus  {
     color: inherit;
 }
 
-h1 {
-    font-size: 35px;
+h1,h2,h3,h4,h5,h6 {
+	position:relative;
+	font-weight:normal;
+	background:none;
+	margin:0px;
+	line-height:1.6em;
+	font-family: 'Karla', sans-serif;
 }
 
-h2 {
-    font-size: 32px;
-}
-
-h3 {
-    font-size: 20px;
-}
-
-h4 {
-    font-size: 21px;
-}
-
-h5 {
-    font-size: 14px;
-}
-
-h6 {
-    font-size: 14px;
-}
 
 p {
     font-size: 16px;
