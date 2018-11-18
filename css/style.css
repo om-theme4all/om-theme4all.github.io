@@ -1,0 +1,188 @@
+/*
+* ----------------------------------------------------
+Author       : Houssam Hammouda
+Template Name: om-theme4all - om-theme4all.github.io
+* ----------------------------------------------------
+*/
+
+/*=================================*/
+/*  01.Common Styles 
+/*=================================*/
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: Poppins, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 2.2;
+    background-color: #fff;
+    color: #797979;
+    overflow-x: hidden;
+}
+
+.load-main {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main-content {
+    height: auto;
+}
+
+img {
+    border-style: none;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    vertical-align: top; 
+}
+
+a, a:hover, a:focus  {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 21px;
+}
+
+h5 {
+    font-size: 14px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+}
+
+.media {
+    margin: 0;
+}
+.full_height {
+    height: 100vh;
+}
+
+.display-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.display-table-cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.padding-top-90 {
+    padding-top: 90px;
+}
+
+.padding-bottom-90 {
+    padding-bottom: 90px;
+}
+
+.padding-bottom-60 {
+    padding-bottom: 60px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+main {
+    overflow-x: hidden;
+}
+
+section:not(.home) {
+    position: relative;
+    z-index: 5;
+}
+
+.sec_title {
+    padding-bottom: 58px;
+    text-align: center;
+    position: relative;
+    margin-top: 13px;
+}
+
+.sec_title p {
+    position: absolute;
+    display: block;
+    left: -15px;
+    top: -71px;
+    width: calc(100% + 30px);
+    text-align: center;
+    font-size: 80px;
+    font-weight: 900;
+    color: #000;
+    text-transform: uppercase;
+    z-index: -1;
+    opacity: 0.05;
+    font-family: "montserrat";
+}
+
+.sec_title h2 {
+    font-size: 30px;
+    font-weight: 800;
+    color: #000;
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 17px;
+}
+
+.primary_bg {
+    background-color: #fafafa;
+}
+
+.bg_image {
+    background-size: cover;
+    background-position: center center;
+}
+
+h1, h2, h3, h4,
+.navbar-nav > li > a,
+.navbar-default .navbar-brand,
+.home .content span,
+.more-about-me span,
+.skills .skill span,
+.fun_facts .content p,
+.portfolio ul li,
+.testimonials .name-job .name {
+    font-family: 'Montserrat', sans-serif;
+}
+/*End Common Styles*/
+
+/*=================================*/
+/*  02.Preloader 
+/*=================================*/
