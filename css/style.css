@@ -325,7 +325,37 @@ span.tolltip:after {
 	border-color: #222;
 }
 
-
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: 5px solid #8a1f98!important;
+    background: linear-gradient(to right, #9C27B0, #E91E63)!important;
+    color: #fff!important;
+}
+.btn-social {
+    padding-left: 44px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 40px;
+    width: 40px;
+    padding: 0;
+    position: relative;
+    font-size: 19px;
+    line-height: 42px;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    border-radius: 24px;
+    color: #ffffff;
+    background: linear-gradient(to right, rgb(255, 185, 84), #ffd657);
+}
 /*Social Icon One*/
 
 .social-icon-one{
