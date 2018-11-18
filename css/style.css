@@ -13,7 +13,9 @@ Template Name: om-theme4all - om-theme4all.github.io
     margin: 0;
     padding: 0
 }
-
+a.active {
+    color: #be238e;
+}
 body {
 	font-size:17px;
 	color:#222;
