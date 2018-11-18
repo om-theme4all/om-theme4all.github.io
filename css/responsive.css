@@ -1,0 +1,151 @@
+/* Resume vCard CV Template */
+
+
+@media only screen and (max-width: 1340px){
+
+}
+
+@media only screen and (min-width: 1200px){
+	.container {
+		padding: 0px;
+	}
+}
+
+@media only screen and (max-width: 1200px){
+	.card-item {
+		padding: 0 15px !important;
+	}
+}
+
+@media only screen and (max-width: 1199px){
+	.card-item {
+		position: absolute;
+	}
+	.card-item.active {
+		position: relative;
+	}
+	.card-item.hide-item {
+		position: absolute;
+	}
+	.card-item.active.zoomIn {
+		position: relative;
+	}
+	.header ul li a {
+	    padding: 0;
+	    margin: 0 10px;
+	}
+	.home .author {
+		padding-top: 30px;
+	}
+	.home .author .designation {
+		margin-bottom: 30px;
+	}
+	.home .text {
+		margin-bottom: 30px;
+	}
+	.about .about-content {
+		padding-left: 0px;
+	}
+	.about .image {
+		position: relative;
+		top: 0;
+		display: inline-block;
+		margin-bottom: 60px;
+	}
+	.card-outer {
+		position: relative;
+		display: block;
+		padding-top: 15px;
+	}
+	.footer {
+		position: relative;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		padding: 20px 15px;
+	}
+	.card-item .card-inner {
+		padding: 0px!important;
+	}
+	.card-item {
+	    left:  0!important;
+	    padding: 30px!important;
+	}
+
+	.header {
+		position: relative;
+	    bottom:  inherit;
+	    top: 0;
+	    padding: 20px 25px 0;
+	}
+	.contact .contact-form {
+		margin-bottom: 50px;
+	}
+	.filters {
+		position: relative;
+		top: 0;
+	}
+	.resume .timeline-column {
+		margin-bottom: 35px;
+	}
+	.header ul li {
+		margin-top: 0px;
+	}
+
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 768px){
+	.author-info {
+		left: 15px;
+	}
+}
+
+@media only screen and (max-width: 767px){
+	.nav-toggler {
+	    position: absolute;
+	    right: 0;
+	    top: -5px;
+	}
+	.parallax-container {
+		display: none;
+	}
+	.main-menu {
+	    margin-right: 50px;
+	}
+	.filter-tabs li span {
+		padding: 8px 3px;
+	}
+	.filter-tabs {
+		justify-content: left;
+		margin-bottom: 0px;
+	}
+	
+
+}
+
+@media only screen and (max-width: 580px){
+	.home .author h3 {
+		font-size: 36px;
+	}
+	.main-menu {
+	    margin-right: 0px;
+	}
+	.home .theme-btn.btn-style-one {
+		margin-bottom: 20px;
+	}
+	.card-item {
+	    padding: 20px!important;
+	}
+}
+
+@media only screen and (max-width: 375px){
+	.footer {
+		text-align: center;
+	}
+	.footer .left-column {
+		width: 100%;
+	}
+	.footer .right-column {
+		width: 100%;
+	}
+}
