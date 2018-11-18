@@ -184,5 +184,35 @@ h1, h2, h3, h4,
 /*End Common Styles*/
 
 /*=================================*/
-/*  02.Preloader 
+/*  Preloader 
 /*=================================*/
+
+
+
+
+/*** 
+
+====================================================================
+	Footer
+====================================================================
+
+***/
+.footer {
+	position: fixed;
+	right: 50px;
+	left: 50px;
+	bottom: 15px;
+	z-index: 999;
+}
+
+.footer .left-column {
+	float: left;
+}
+
+.footer .right-column {
+	float: right;
+}
+
+.footer .text {
+	color: #fff;
+}
