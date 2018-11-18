@@ -198,9 +198,10 @@ h1, h2, h3, h4,
 
 img.about-tween {
     width: 47%;
-    border: 18px solid #eaeaea;
+    border: 18px solid #e4e2e4;
     box-shadow: 0 45px 20px rgba(111, 104, 104, 0.1);
     margin-top: 68px;
+    border-radius: 100% 50% 50% 100% / 75% 69% 69% 75%!important;
 }
 
 .home .author {
