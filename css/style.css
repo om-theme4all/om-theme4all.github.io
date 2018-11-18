@@ -45,6 +45,7 @@ img {
 a, a:hover, a:focus  {
     text-decoration: none;
     outline: none;
+	color: #333;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -190,14 +191,14 @@ h1, h2, h3, h4,
     padding: 0px;
     display: block;
     background: #fff;
-    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
     margin-bottom: 30px;
 }
 
 img.about-tween {
-    width: 75%;
-    border-radius: 84%;
-    border: 18px solid #fff0f7;
+    width: 47%;
+    border: 18px solid #eaeaea;
+    box-shadow: 0 45px 20px rgba(111, 104, 104, 0.1);
+    margin-top: 68px;
 }
 
 .home .author {
