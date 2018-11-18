@@ -45,7 +45,6 @@ img {
 a, a:hover, a:focus  {
     text-decoration: none;
     outline: none;
-    color:#fc6183;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -183,13 +182,93 @@ h1, h2, h3, h4,
 /*=================================*/
 
 
-/*** 
-/*** 
 
+/*=================================*/
+/*  Home 
+/*=================================*/
+.home .card-inner {
+    padding: 0px;
+    display: block;
+    background: #fff;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
 
-====================================================================
-	Footer
-====================================================================
+img.about-tween {
+    width: 75%;
+    border-radius: 84%;
+    border: 18px solid #fff0f7;
+}
+
+.home .author {
+	position: relative;
+	padding-top: 95px;
+}
+
+.home .author h3 {
+    font-size: 48px;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+.hello-us {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #000;
+    line-height: 45px;
+    margin-bottom: 0;
+    position: relative;
+}
+.home .author .designation {
+    font-size: 28px;
+    margin-bottom: 17px;
+    color: #ffc655;
+    background: -webkit-linear-gradient(#ffd857, #ffb252);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}.home .text {
+	font-size: 17px;
+	margin-bottom: 50px;
+	max-width: 560px;
+	color: #848484;
+}
+
+.home .link-btn {
+	margin-bottom: 35px;
+}
+
+.home .theme-btn {
+	margin-right: 20px;
+}
+span.tolltip {
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+    background: linear-gradient(to right, #9C27B0, #E91E63)!important;
+    padding: 11px 18px;
+    display: inline-block;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 13px;
+    margin-top: 13px;
+    font-weight: 600;
+}
+
+span.tolltip:after {
+    content: '';
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-right: 20px solid #e21f6a;
+    position: absolute;
+    right: 1px;
+    bottom: -20px;
+}
+
+/*=================================*/
+/*  Footer 
+/*=================================*/
 
 ***/
 .footer {
