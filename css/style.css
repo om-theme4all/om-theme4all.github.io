@@ -26,6 +26,9 @@ body {
 	-moz-font-smoothing: antialiased;
 	font-family: 'Karla', sans-serif;
 }
+::-webkit-input-placeholder{color: inherit;}
+::-moz-input-placeholder{color: inherit;}
+::-ms-input-placeholder{color: inherit;}
 
 .load-main {
     height: 100vh;
