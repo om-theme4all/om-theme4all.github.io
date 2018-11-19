@@ -513,6 +513,7 @@ blockquote .small, blockquote footer, blockquote small {
     background: linear-gradient(to right, #06104c, #673AB7)!important;
     color: #fff!important;
     border-radius: 0px!important;
+    margin-bottom: 0px!important;
 }
 h3.subtitle {
     margin-bottom: 45px;
