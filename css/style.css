@@ -584,7 +584,12 @@ span.here_me {
     text-transform: uppercase;
     color: #020406;
 }
-
+.jumbotron.jac {
+    background: #0a0505;
+    color: #fff!important;
+    margin-bottom: 0px!important;
+    border-radius: 0px!important;
+}
 /*=================================*/
 /*  Footer 
 /*=================================*/
