@@ -514,6 +514,61 @@ blockquote .small, blockquote footer, blockquote small {
     color: #fff!important;
     border-radius: 0px!important;
 }
+h3.subtitle {
+    margin-bottom: 45px;
+    color: #fff;
+    font-size: 17px;
+    background: #1b0615;
+    font-weight: 700;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.skill {
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.skill h5 {
+    margin-right: 10px;
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    position: absolute;
+    left: 0;
+}
+
+.skill div {
+    text-align: right;
+    padding-bottom: 12px;
+    line-height: 1;
+}
+
+.skill div span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.skill div span {
+    background-color: #ffffff;
+}
+
+.skill > span {
+    color: rgba(255, 255, 255, 0.98);
+    display: block;
+    clear: both;
+    border-top: 1px solid rgba(255, 255, 255, 0.36);
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-style: italic;
+}
 /*=================================*/
 /*  Footer 
 /*=================================*/
