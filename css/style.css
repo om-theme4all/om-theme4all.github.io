@@ -36,6 +36,16 @@ input[type="text"], input[type="email"] {
     background: none!important;
     color: #FFF;
 }
+textarea[type="text"]{
+    width: 100%;
+    border: none;
+    border-bottom: 4px solid #fff;
+    padding: 8px 0 30px;
+    outline: none;
+    margin-bottom: 40px;
+    background: none!important;
+    color: #FFF;
+}
 .form-control:focus {
     color: #495057;
     background-color: #fff;
