@@ -516,10 +516,11 @@ blockquote .small, blockquote footer, blockquote small {
     margin-bottom: 0px!important;
 }
 h3.subtitle {
-    margin-bottom: 45px;
+    margin-bottom: 14px;
     color: #fff;
     font-size: 17px;
     background: #1b0615;
+    border-bottom: 2px solid #FFF;
     font-weight: 700;
     display: inline-block;
     text-transform: uppercase;
@@ -527,6 +528,40 @@ h3.subtitle {
     padding-left: 20px;
     padding-right: 20px;
 }
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background: linear-gradient(to right, #9C27B0, rgb(198, 66, 110))!important;
+    background-clip: border-box;
+    border: none!important;
+    border-radius: .25rem;
+}
+.card-header {
+    padding: .75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgb(255, 255, 255)!important;
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    color: #191414!important;
+}
+.btn-link {
+    font-weight: 400;
+    color: #000000!important;
+    background-color: transparent;
+    font-size: 22px!important;
+}
+.btn-link:hover {
+    color: #b63886!important;
+    text-decoration: underline;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+
 
 .skill {
     padding-bottom: 15px;
