@@ -702,6 +702,14 @@ span.here_me {
     border-bottom: 2px solid #FFF;
     font-weight: 600;
 }
+.jumbotron.j-d {
+    background: linear-gradient(to right, rgb(21, 153, 87), rgb(21, 87, 153));
+    color: #fff!important;
+    margin-bottom: 0px!important;
+    border-radius: 0px!important;
+    text-align: center;
+    border-top: 1px solid #0a504a;
+}
 
 
 
