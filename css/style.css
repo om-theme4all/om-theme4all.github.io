@@ -647,6 +647,63 @@ span.here_me {
     border-bottom: 2px solid;
     margin-bottom: 15px;
 }
+.testi-box {
+    padding: 40px;
+    margin: 2px;
+    margin-bottom: 20px;
+    position: relative;
+    cursor: move;
+}
+.testi-box:before {
+    height: 2px;
+    width: 90%;
+    content: '';
+    top: 0px;
+    left: 5%;
+}
+.testi-box .after {
+    height: 90%;
+    width: 2px;
+    bottom: 5%;
+    right: 0px;
+}
+.testi-box .before, .testi-box .after, .testi-box:before, .testi-box:after {
+    background: #fff;
+    position: absolute;
+}
+.testi-box .quots {
+    font-size: 40px;
+    margin-bottom: 40px;
+    display: block;
+    color: #ffffff;
+}
+.testi-box p {
+    font-style: italic;
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+}
+.testi-box h5 {
+    text-transform: capitalize;
+    color: #fff;
+    letter-spacing: 0.2px;
+    text-align: right;
+    font-weight: 400;
+}
+.testi-box h5 .colord {
+    margin-left: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #21201f;
+    background: #FFEB3B;
+    padding: 8px;
+    border-bottom: 2px solid #FFF;
+    font-weight: 600;
+}
+
+
 
 /*=================================*/
 /*  Footer 
