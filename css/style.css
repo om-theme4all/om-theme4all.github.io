@@ -493,7 +493,16 @@ blockquote .small, blockquote footer, blockquote small {
     font-size: 16px;
     font-weight: 600;
 }
-
+.about-right ul li {
+    width: 40%;
+    float: left;
+    margin-bottom: 25px;
+    color: #fff;
+    border-bottom: 2px dotted #fff;
+    display: inline-block;
+    margin-right: 50px;
+    padding-bottom: 10px;
+}
 .jumbotron.j-a {
     background: linear-gradient(to right, #9C27B0, #E91E63)!important;
     color: #fff!important;
