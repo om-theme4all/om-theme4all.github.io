@@ -462,7 +462,7 @@ blockquote .small, blockquote footer, blockquote small {
     font-weight: 600;
     margin-bottom: 10px;
     text-transform: uppercase;
-    color: #222;
+    color: #fff;
 }
 
 .skill-div .skills-item .bar {
@@ -487,11 +487,23 @@ blockquote .small, blockquote footer, blockquote small {
     content: attr(data-width);
     position: absolute;
     top: -30px;
-    right: -18px;
+    right: -171vh;
     font-family: sans-serif;
-    color: #222;
+    color: #fff;
     font-size: 16px;
     font-weight: 600;
+}
+
+.jumbotron.j-a {
+    background: linear-gradient(to right, #9C27B0, #E91E63)!important;
+    color: #fff!important;
+    margin-bottom: 0px!important;
+    border-radius: 0px!important;
+}
+.jumbotron.j-b {
+    background: linear-gradient(to right, #F44336, #FFEB3B)!important;
+    color: #fff!important;
+    border-radius: 0px!important;
 }
 /*=================================*/
 /*  Footer 
