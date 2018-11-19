@@ -477,7 +477,7 @@ blockquote .small, blockquote footer, blockquote small {
     position: absolute;
     width: 0;
     height: 100%;
-    background: #000;
+    background: #FFEB3B;
     border-radius: 5px;
     -webkit-transition: all 3s;
     transition: all 3s;
