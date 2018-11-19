@@ -575,24 +575,14 @@ h3.subtitle {
 /*=================================*/
 /*  Footer 
 /*=================================*/
-
-***/
-.footer {
-	position: fixed;
-	right: 50px;
-	left: 50px;
-	bottom: 15px;
-	z-index: 999;
+footer.bg-dark {
+    background: #0F0F0F !important;
+    padding: 80px 0;
+    color: #FFF!important;
+}
+.logo {
+    padding: 15px 0;
+    margin-bottom: 10px!important;
+    display: block;
 }
 
-.footer .left-column {
-	float: left;
-}
-
-.footer .right-column {
-	float: right;
-}
-
-.footer .text {
-	color: #fff;
-}
