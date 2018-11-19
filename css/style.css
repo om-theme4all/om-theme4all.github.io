@@ -477,17 +477,17 @@ blockquote .small, blockquote footer, blockquote small {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(-45deg,#E91E63 0,#E91E63 40%,#9C27B0 100%);
+    background: #000;
     border-radius: 5px;
     -webkit-transition: all 3s;
     transition: all 3s;
 }
 
 .skill-div .skills-item .bar .fill:before {
-    content: attr(data-width);
+   content: attr(data-width);
     position: absolute;
     top: -30px;
-    right: -171vh;
+    left: 505px;
     font-family: sans-serif;
     color: #fff;
     font-size: 16px;
