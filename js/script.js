@@ -58,8 +58,6 @@
 	*/
 	
 	var container = $('.container');
-	var innerbox = $('.card-outer .card-inner-box');
-	var card_items = $('.card-item');
 	var animation_in = container.data('animation-in');
 	var animation_out = container.data('animation-out');
 	
