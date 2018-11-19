@@ -38,7 +38,16 @@ body {
 .main-content {
     height: auto;
 }
-
+h5.my-0.mr-md-auto.font-weight-normal {
+    font-family: 'Courgette', cursive;
+    background: linear-gradient(to right, rgb(165, 38, 166), rgb(225, 31, 107));
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    color: #FFF;
+    border-radius: 30px;
+}
 img {
     border-style: none;
     width: 100%;
