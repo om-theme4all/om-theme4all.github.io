@@ -16,6 +16,10 @@ Template Name: om-theme4all - om-theme4all.github.io
 a.active {
     color: #be238e;
 }
+p.howIam {
+    font-size: 20px;
+    line-height: 30px;
+}
 body {
 	font-size:17px;
 	color:#222;
