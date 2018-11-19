@@ -626,6 +626,28 @@ span.here_me {
     margin-bottom: 0px!important;
     border-radius: 0px!important;
 }
+.jumbotron.j-c {
+    background: linear-gradient(to right, rgb(21, 153, 87), rgb(21, 87, 153));
+    color: #fff!important;
+    margin-bottom: 0px!important;
+    border-radius: 0px!important;
+}
+.section-title.s-2 h4 {
+    font-family: 'droid';
+    color: #ffffff;
+    background: #070808;
+    font-style: italic;
+    font-size: 14px;
+    text-transform: capitalize;
+    line-height: 25px;
+    margin-bottom: 10px;
+    width: 23%;
+    margin: 4px auto;
+    padding: 8px;
+    border-bottom: 2px solid;
+    margin-bottom: 15px;
+}
+
 /*=================================*/
 /*  Footer 
 /*=================================*/
