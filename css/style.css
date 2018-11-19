@@ -572,6 +572,19 @@ h3.subtitle {
 .skill .false {
     opacity: 0.19;
 }
+span.here_me {
+    font-size: 1.25rem;
+    padding: 30px 40px;
+    display: inline-flex;
+    border-radius: 3px;
+    background: #FFEB3B;
+    font-family: "IBM Plex Sans Condensed",sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #020406;
+}
+
 /*=================================*/
 /*  Footer 
 /*=================================*/
