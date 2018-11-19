@@ -79,6 +79,46 @@ h5.my-0.mr-md-auto.font-weight-normal {
     color: #FFF;
     border-radius: 30px;
 }
+.brand {
+    width: 243px;
+}
+
+div#logo {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+}
+
+.info {
+    display: inline-block;
+    float: left;
+    margin-top: 3px;
+}
+
+.info .name {
+    letter-spacing: -1px;
+    font-family: 'Courgette', cursive;
+    background: linear-gradient(to right, rgb(165, 38, 166), rgb(225, 31, 107));
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    color: #FFF;
+    border-radius: 30px;
+}
+
+.info .title {
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-align: center;
+    font-weight: 600;
+}
+
+div#logo i {
+    font-size: 27px;
+    font-weight: bold;
+    color: #bb2390;
+}
 img {
     border-style: none;
     width: 100%;
