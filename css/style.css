@@ -569,6 +569,9 @@ h3.subtitle {
     text-transform: capitalize;
     font-style: italic;
 }
+.skill .false {
+    opacity: 0.19;
+}
 /*=================================*/
 /*  Footer 
 /*=================================*/
