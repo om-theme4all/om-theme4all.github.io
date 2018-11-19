@@ -43,6 +43,10 @@ img {
     max-width: 100%;
     vertical-align: top; 
 }
+.image.about-img:hover {
+    transform: perspective(700px) rotateX(-10deg) rotate(29deg);
+    transition: 1.3s all ease;
+}
 
 a, a:hover, a:focus  {
     text-decoration: none;
