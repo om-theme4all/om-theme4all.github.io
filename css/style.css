@@ -805,6 +805,48 @@ span.before {
 }
 
 
+/** Services **/
+.service-box {
+    padding: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    position: relative;
+}
+
+.service-box:before {
+    height: 1px;
+    width: 90%;
+    content: '';
+    top: 0px;
+    left: 5%;
+}
+
+.service-box .before, .service-box .after, .service-box:before, .service-box:after {
+    background: #fff;
+    position: absolute;
+}
+
+.service-box .after {
+    height: 90%;
+    width: 1px;
+    bottom: 5%;
+    right: 0px;
+}
+
+.service-icon i {
+    font-size: 36px;
+    color: #ffffff;
+}
+
+.box-num {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.service-content {
+    margin-left: 25px;
+}
 
 /*=================================*/
 /*  Footer 
