@@ -747,6 +747,19 @@ span.here_me {
     bottom: 5%;
     right: 0px;
 }
+span.before {
+    height: 90%;
+    width: 2px;
+    bottom: 5%;
+    left: 0px;
+}
+.testi-box:after {
+    height: 2px;
+    width: 90%;
+    content: '';
+    bottom: 0px;
+    left: 5%;
+}
 .testi-box .before, .testi-box .after, .testi-box:before, .testi-box:after {
     background: #fff;
     position: absolute;
